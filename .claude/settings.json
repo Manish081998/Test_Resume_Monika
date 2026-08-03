@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node -e \"console.log\\(require\\('three/package.json'\\).version\\)\")",
+      "Bash(npm ls *)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/framer-motion/package.json'\\).version\\)\")",
+      "Bash(rm -f components/resume/reveal.tsx components/ui/horizon-hero-section.tsx types/three-jsm.d.ts)",
+      "Bash(rmdir types *)",
+      "Bash(npm uninstall *)",
+      "Bash(grep -iE \"^gsap$|studio-freight|^lenis$\")",
+      "Bash(echo \"exit:$?\")",
+      "Bash(npx eslint *)",
+      "Bash(npx next *)"
+    ]
+  }
+}
